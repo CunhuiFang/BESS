@@ -1,2 +1,2 @@
-# Hui
+# BESS
 BESS Knowledge Hub
