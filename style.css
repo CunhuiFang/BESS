@@ -1,0 +1,296 @@
+/* ==========================
+   Battery Knowledge Hub
+   Author: Cunhui Fang
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:Inter,Arial,sans-serif;
+
+    background:#f7f9fc;
+
+    color:#222;
+
+    line-height:1.8;
+
+}
+
+/* ==========================
+Header
+========================== */
+
+header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 10%;
+
+    background:white;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    border-bottom:1px solid #e5e5e5;
+
+}
+
+.logo{
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#1d3557;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:#555;
+
+    margin-left:30px;
+
+    transition:.3s;
+
+    font-weight:500;
+
+}
+
+nav a:hover{
+
+    color:#0057d9;
+
+}
+
+/* ==========================
+Hero
+========================== */
+
+.hero{
+
+    text-align:center;
+
+    padding:90px 12%;
+
+    background:white;
+
+}
+
+.hero h1{
+
+    font-size:48px;
+
+    color:#1d3557;
+
+    margin-bottom:25px;
+
+}
+
+.hero p{
+
+    max-width:850px;
+
+    margin:auto;
+
+    color:#666;
+
+    font-size:20px;
+
+}
+
+.button{
+
+    display:inline-block;
+
+    margin-top:40px;
+
+    background:#0057d9;
+
+    color:white;
+
+    padding:16px 32px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.button:hover{
+
+    background:#003d99;
+
+}
+
+/* ==========================
+Section
+========================== */
+
+section{
+
+    padding:80px 10%;
+
+}
+
+section h2{
+
+    font-size:36px;
+
+    color:#1d3557;
+
+    margin-bottom:30px;
+
+}
+
+/* ==========================
+Cards
+========================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:28px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:14px;
+
+    padding:30px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.06);
+
+    transition:.25s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card h3{
+
+    color:#1d3557;
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    color:#666;
+
+}
+
+.card a{
+
+    display:inline-block;
+
+    margin-top:18px;
+
+    color:#0057d9;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+/* ==========================
+About
+========================== */
+
+#about p,
+
+#author p{
+
+    max-width:900px;
+
+    color:#555;
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================
+Footer
+========================== */
+
+footer{
+
+    background:#1d3557;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+/* ==========================
+Responsive
+========================== */
+
+@media(max-width:900px){
+
+header{
+
+    flex-direction:column;
+
+}
+
+nav{
+
+    margin-top:20px;
+
+}
+
+nav a{
+
+    margin:10px;
+
+}
+
+.hero h1{
+
+    font-size:34px;
+
+}
+
+.hero p{
+
+    font-size:18px;
+
+}
+
+}
